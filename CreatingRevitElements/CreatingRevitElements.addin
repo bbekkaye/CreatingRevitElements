@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CreatingRevitElements</Text>
+    <Description>Some description for CreatingRevitElements</Description>
+    <Assembly>CreatingRevitElements.dll</Assembly>
+    <FullClassName>CreatingRevitElements.Command</FullClassName>
+    <ClientId>a3e852af-21f2-420f-af11-dec9bbbbdff2</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CreatingRevitElements</Name>
+    <Assembly>CreatingRevitElements.dll</Assembly>
+    <FullClassName>CreatingRevitElements.App</FullClassName>
+    <ClientId>680d91b4-4b36-4314-bb03-14cd261dba4a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
